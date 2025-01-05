@@ -128,7 +128,7 @@ public class Network {
     public String toString() {
         String result = "Network:\n";
         for(int i=0; i < userCount; i++) {
-            result += users[i].toString();
+            result += "\n" +users[i].toString();
         }
        return result;
     }
